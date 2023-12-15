@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bit Academy</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Bit Academy</a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-dark">Home</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-dark">Info</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron" style="background-color: #9fa8b4;">
+  <div class="container">
+
+<div class="jumbotron">
+    <div class="container">
+      <H1 class="p-3 mb-2 .bg-secondary text-dark">Welcome to Bit Academy</H1>
+        <p class="p-3 mb-2 .bg-secondary text-dark">Empowering your journey in technology.</p>
+    </div>
+</div>
+
+<div class="card" style="padding: 2%;" >
+    <div class="card-body" style="display: inline-block; border: 2px grey solid; border-radius: 40px;">
+      <h5 class="card-title">Wij maken het beste tech onderwijs voor jou beschikbaar.</h5>
+
+      <p class="card-text">Bij Bit Academy staan de studenten centraal. 
+        Je volgt hier het beste tech-onderwijs en gaat in een rechte lijn direct op je doel af. 
+        Jouw skills zijn het allerbelangrijkst en wij helpen je om jouw persoonlijk te laten groeien. 
+        Met de kennis die je opdoet tijdens je opleiding ben je een échte aanwinst voor ieder tech-bedrijf.
+         Maar ook voor een flink aantal commerciële bedrijven die op zoek zijn naar een Data Engineer of Web Developer.
+        Onze opleidingen zijn specifiek gericht op het ontwikkelen van skills waar je echt iets aan hebt in de arbeidsmarkt.
+         Niet alleen kun je als techie even heerlijk upskillen, je laat ook zien hoe ambitieus en gretig je bent. 
+         Wij bieden je de tools die je nodig hebt om een streepje voor te krijgen bij je toekomstige werkgever.
+        </p>
+    </div>
+  </div>
+
+  <div class="card" style="padding: 2%;">
+    <img src="Computer.png" width="25%" class="card-img-top" alt="...">
+    <div class="card-body" style="display: inline-block; border: 2px grey solid; border-radius: 40px;">
+      <h5 class="card-title">Wij doen alles rondom een actieve community van 3.000+ members</h5>
+
+      <p class="card-text">Als techie of toekomstige tech specialist ben je bij Bit Academy helemaal op je plek. 
+        Niet voor niets kozen meer dan 3.000+ tech specialisten voor een cursus of ICT-opleiding via Bit Academy. 
+        Wij hebben de ervaring, kennis én de reputatie bij werkgevers in binnen- en buitenland. 
+        Zowel beginners als gevorderden kunnen rekenen op</p>
+     
+    </div>
+  </div>
+
+  <div class="card" style="padding: 2%;">
+    <img src="AC.png" width="25%" class="card-img-top" alt="...">
+    <div class="card-body" style="display: inline-block; border: 2px grey solid; border-radius: 40px;">
+      <h5 class="card-title">Opleidingen</h5>
+      <p class="card-text">Bij ons volg je het beste tech-onderwijs. 
+        Of je nu al technische kennis hebt en je deze wilt uitbreiden of juist helemaal vanaf het begin start: 
+        wij helpen je om je doelen te behalen.</p>
+
+        <a href="Opleidingen.html" class="btn btn-primary">Meld je aan!</a>
+    </div>
+  </div>
+
+</body>
+</html>

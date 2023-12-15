@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bit Academy Goal Tracker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+    <div class="tabs is-centered">
+        <ul>
+          <a class="navbar-brand" href="#">Bit-Academy</a>
+          <li><a>Home</a></li>
+          <li class="is-active"><a>Goals</a></li>
+          <li><a>NexEd</a></li>
+          <li><a>Info</a></li>
+        </ul>
+      </div>
+    <div class="jumbotron" style="background-color: #1ea48c;">
+<section class="section mt-4">
+    <div class="container">
+        <h1 class="title has-text-centered is-size-1 has-text-white" >My Daily Goals</h1>
+        <div class="card">
+            <div class="card-content">
+                <p class="title">Today's Goals</p>
+                <ul class="list">
+                    <li>Studie CSS Deep Dive - 9:00 AM</li>
+                    <li>Voltooi de codeeroefening - 4:00 PM</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-content">
+                <p class="title is-size-4">Set a New Goal</p>
+                <form>
+                    <div class="field">
+                        <label class="label">Goal:</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Enter your goal" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Time:</label>
+                        <div class="control">
+                            <input class="input" type="time" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <button type="submit" class="button is-primary">Set Goal</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section mt-4">
+    <div class="container">
+        <h1 class="title has-text-centered is-size-1 has-text-white">Coach Dashboard</h1>
+        <div class="card mt-4">
+            <div class="card-content">
+                <p class="title is-4">Student's Proposed Goal</p>
+                <p>Student: John Doe</p>
+                <p>Goal: Study React - 3:00 PM</p>
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-success">Approve </button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-danger">Reject</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
